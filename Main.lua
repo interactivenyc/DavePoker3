@@ -32,6 +32,15 @@ end
 
 function draw()
     background(40, 40, 50)
+    pushMatrix()
+    translate(WIDTH/2,HEIGHT/2)
+    rotate(0)
+    pushStyle()
+    tint(235, 148, 69, 255)
+    sprite("Documents:poker background 2",0,0,1024,1024)
+    popStyle()
+    popMatrix()
+    
     pt:draw()
     for a,b in pairs(tab) do
         b:draw()

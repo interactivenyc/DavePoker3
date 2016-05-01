@@ -15,7 +15,7 @@ function pot:draw()
         --ellipse(0,0,80)
         sprite("Project:"..b.name,0,0,b.size)
         fill(255,0,0)
-        text(b.name,0,0)
+        --text(b.name,0,0)
         popMatrix()
     end
 end
