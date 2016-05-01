@@ -9,6 +9,10 @@
 		<string>Main</string>
 		<string>coin</string>
 		<string>pot</string>
+		<string>Penny</string>
+		<string>Nickel</string>
+		<string>Dime</string>
+		<string>Quarter</string>
 	</array>
 	<key>Description</key>
 	<string>No description available</string>

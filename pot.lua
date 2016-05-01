@@ -3,6 +3,8 @@ pot=class()
 pot.coins={}
 
 function pot:draw()
+    fill(88, 47, 31, 255)
+    rect(WIDTH/2,HEIGHT/2,450,450)
     for a,b in pairs(self.coins) do
         pushMatrix()
         fill(255)
@@ -11,7 +13,7 @@ function pot:draw()
         stroke(0, 124, 255, 255)
         strokeWidth(2)
         --ellipse(0,0,80)
-        sprite("Project:"..b.name,0,0,80)
+        sprite("Project:"..b.name,0,0,b.size)
         fill(255,0,0)
         text(b.name,0,0)
         popMatrix()
